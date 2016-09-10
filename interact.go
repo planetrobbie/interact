@@ -3,10 +3,15 @@ package ask
 import "fmt"
 
 /* Example
+package main
+
+import "fmt"
+import interact "github.com/planetrobbie/interact"
+
 func main() {
-	humeur := ask("Bonjour ... \n Bienvenue dans l'aventure The_Game \n a:x b:z c:j\nd:x e:z f:j\n", "a", "b", "c", "d", "e", "f")
-	temps := ask("Quel temps fait-il", "beau", "moche")
-	jim := ask("Jim est t-il interesse par Golang ?", "yes", "no")
+	humeur := interact.Ask("Bonjour ... \n Bienvenue dans l'aventure The_Game \n a:x b:z c:j\nd:x e:z f:j\n", "a", "b", "c", "d", "e", "f")
+	temps := interact.Ask("Quel temps fait-il", "beau", "moche")
+	jim := interact.Ask("Jim est t-il interesse par Golang ?", "yes", "no")
 	fmt.Println(humeur, temps, jim)
 }*/
 
