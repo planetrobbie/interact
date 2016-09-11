@@ -1,6 +1,9 @@
 package ask
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 /* Example
 package main
@@ -24,6 +27,11 @@ func Ask(asked string, constraint ...string) string {
 		fmt.Scanf("%s", &output)
 	}
 	return output
+}
+
+func Dialog(personnage string, text string, delay time.Duration) {
+	time.Sleep(time.Microsecond * delay * 100000)
+	fmt.Println(personnage, text)
 }
 
 // verify if item is within ...string
